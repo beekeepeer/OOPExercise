@@ -44,7 +44,7 @@ public class Time {
                 + String.format("%02d", second) + "]";
     }
 
-    public Time nextSecond() { // I did not know that it it's possible to write a method with a tipe of its
+    public Time nextSecond() { // I did not know that it it's possible to write a method with a type of its
                                // class!!!
         second++;
         if (second > 59) {
